@@ -18,9 +18,13 @@ public class Main {
         Greetings();
     }
     void greetings(){
+        // Greetings();
         System.out.println("Hello!");
     }
     static void Greetings(){
+        // greetings();
+        Main obj=new Main();
+        obj.greetings();
         System.out.println("Hello all!");
     }
 }
@@ -47,6 +51,10 @@ class Student{
     }
     void greeting(){
         System.out.println("Hello I am " + this.name);
+    }
+    static void greetings(){
+        // System.out.println(this.rno);
+        System.out.println("Helloooo!");
     }
 }
 
